@@ -67,3 +67,5 @@ The detailed descriptions and code are given in the following parts:
 2. Fetching and processing data
 3. Brief data assessment
 4. Initial analysis
+
+![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/part4_initial_analysis_51_1.png)
