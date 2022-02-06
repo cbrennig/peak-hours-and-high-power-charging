@@ -7,7 +7,7 @@ Can ultra-fast charging stations with buffer storage help to accelerate the mobi
 
 In the majority of cases, electric vehicles are charged relatively slowly, i.e. with low to medium charging power (i.e. in the private sector between 4.6 kW and 11 kW at public charging stations often 22 kW up to 50 kW)*. Since vehicles are often parked, these charging powers are sufficient to fully charge the vehicle battery again within a few hours. Waiting times are less relevant in this case than, for example, for transit or long-distance commercial trips. In such cases, charging times should be kept as short as possible. So-called fast-charging stations are used for this purpose. These have power ratings far above 100 kW. Modern electric vehicles can be charged with power of up to 350 kW. 
 
-![High Power Charger Plug](jupyter_notebook/hpc_stecker_M.Verch.jpg)
+![High Power Charger Plug](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/hpc_stecker_M.Verch.jpg)
 "HPC-Stecker IONITY: High-Power-Charging-Ladestecker an ein Elektroauto angeschlossen" by verchmarco is licensed under CC BY-NC-ND 2.0 
 
 This means that the charge level of a vehicle battery can be raised to a usable level within a few minutes so that it can be driven for hundreds of kilometres. More details on charging behaviour can be found here, among other places [ADAC](https://www.adac.de/rund-ums-fahrzeug/tests/elektromobilitaet/schnellladen-langstrecke-ladekurven/).
