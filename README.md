@@ -28,7 +28,7 @@ This is where buffer storage comes into the picture. These are usually large lit
 The question now is how busy are gas stations these days, and how large are the time gaps to recharge such buffer storage batteries.These offer the electricity for fast charging, for example, parallel to the electricity from the public grid. When the electricity from the public grid is not needed for charging vehicles, the buffer storage can be filled again with grid electricity. The total available charging power can be increased. In addition, the strong fluctuations between peak times and idle times are balanced out.
 
 
-![symbol](jupyter_notebook/battery_icon.png)
+![symbol](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/battery_icon.png)
 
 
 ## Basic idea of data analysis
