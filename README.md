@@ -58,7 +58,7 @@ From the response of the API, the Google Place ID is used to access exactly this
 
 The data collected in the database contains a comprehensive share of the German gas stations. Almost all of the motorway gas stations are included. The geographical distribution shows that all urban centres and motorways are covered. Initial assessments can show that the data are sufficiently well distributed to provide a good overview of the different use cases.
 
-![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/output_5_1.png)
+![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/output_37_0.png)
 
 A first analysis of the peak hours shows that the utilisation of motorway gas stations varies significantly. It can be seen that a large proportion of gas stations are not continuously high or evenly high busy. This raises the possibility of considering the use of buffer storage.
 
