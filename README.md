@@ -15,7 +15,7 @@ This means that the charge level of a vehicle battery can be raised to a usable 
 ** *See distribution of charging capacities below (note: frequency is shown logarithmically); data source: [Charging station register of the BNetzA](https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/E-Mobilitaet/start.html;jsessionid=ED8DDDE3D89698EE5FE719B615BFE25E)**
 
 
-![png](jupyter_notebook/output_2_1.png)
+![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/output_2_1.png)
     
 
 
@@ -40,7 +40,7 @@ Based on this, estimates could be made on the size of the above-mentioned buffer
 In order to be able to make the planned evaluations, the peak times at gas stations are to be used. Of particular interest are those at major traffic junctions and motorways. Google Maps offers information on peak times for many shops. The averaged relative customer numbers (0 - 100%) are displayed for each hour of a day, for a week*. In addition, information is provided on whether the shop is still in operation or no longer (i.e. closed for good). In combination with a few data on the business field (petrol station, car park, café) and geo-localisation, it should be possible to carry out some useful analyses. 
 
 ** *a sample from Googles peak time data **    
-![png](jupyter_notebook/output_5_1.png)
+![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/output_5_1.png)
     
 
 
