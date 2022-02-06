@@ -64,8 +64,8 @@ A first analysis of the peak hours shows that the utilisation of motorway gas st
 
 The detailed descriptions and code are given in the following parts in the folder jupyter notebooks:
 1. [Data base](jupyter_notebooks/part1_database_setup.ipynb)
-2. [Fetching and processing data]((jupyter_notebooks/part2_data_fetching.ipynb)
-3. [Brief data assessment]((jupyter_notebooks/part3_simple_data_assessment.ipynb)
-4. [Initial analysis]((jupyter_notebooks/part4_initial_analysis.ipynb)
+2. [Fetching and processing data](jupyter_notebooks/part2_data_fetching.ipynb)
+3. [Brief data assessment](jupyter_notebooks/part3_simple_data_assessment.ipynb)
+4. [Initial analysis](jupyter_notebooks/part4_initial_analysis.ipynb)
 
 ![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/part4_initial_analysis_51_1.png)
