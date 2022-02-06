@@ -7,7 +7,7 @@ Can ultra-fast charging stations with buffer storage help to accelerate the mobi
 
 In the majority of cases, electric vehicles are charged relatively slowly, i.e. with low to medium charging power (i.e. in the private sector between 4.6 kW and 11 kW at public charging stations often 22 kW up to 50 kW)*. Since vehicles are often parked, these charging powers are sufficient to fully charge the vehicle battery again within a few hours. Waiting times are less relevant in this case than, for example, for transit or long-distance commercial trips. In such cases, charging times should be kept as short as possible. So-called fast-charging stations are used for this purpose. These have power ratings far above 100 kW. Modern electric vehicles can be charged with power of up to 350 kW. 
 
-![High Power Charger Plug](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/hpc_stecker_M.Verch.jpg)
+![High Power Charger Plug](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/hpc_stecker_M.Verch.jpg)
 "HPC-Stecker IONITY: High-Power-Charging-Ladestecker an ein Elektroauto angeschlossen" by verchmarco is licensed under CC BY-NC-ND 2.0 
 
 This means that the charge level of a vehicle battery can be raised to a usable level within a few minutes so that it can be driven for hundreds of kilometres. More details on charging behaviour can be found here, among other places [ADAC](https://www.adac.de/rund-ums-fahrzeug/tests/elektromobilitaet/schnellladen-langstrecke-ladekurven/).
@@ -15,7 +15,7 @@ This means that the charge level of a vehicle battery can be raised to a usable 
 ** *See distribution of charging capacities below (note: frequency is shown logarithmically); data source: [Charging station register of the BNetzA](https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/E-Mobilitaet/start.html;jsessionid=ED8DDDE3D89698EE5FE719B615BFE25E)**
 
 
-![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/output_2_1.png)
+![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/output_2_1.png)
     
 
 
@@ -28,7 +28,7 @@ This is where buffer storage comes into the picture. These are usually large lit
 The question now is how busy are gas stations these days, and how large are the time gaps to recharge such buffer storage batteries.These offer the electricity for fast charging, for example, parallel to the electricity from the public grid. When the electricity from the public grid is not needed for charging vehicles, the buffer storage can be filled again with grid electricity. The total available charging power can be increased. In addition, the strong fluctuations between peak times and idle times are balanced out.
 
 
-![symbol](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/battery_icon.png)
+![symbol](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/battery_icon.png)
 
 
 ## Basic idea of data analysis
@@ -40,7 +40,7 @@ Based on this, estimates could be made on the size of the above-mentioned buffer
 In order to be able to make the planned evaluations, the peak times at gas stations are to be used. Of particular interest are those at major traffic junctions and motorways. Google Maps offers information on peak times for many shops. The averaged relative customer numbers (0 - 100%) are displayed for each hour of a day, for a week*. In addition, information is provided on whether the shop is still in operation or no longer (i.e. closed for good). In combination with a few data on the business field (petrol station, car park, café) and geo-localisation, it should be possible to carry out some useful analyses. 
 
 ** *a sample from Googles peak time data **    
-![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/jupyter_notebooks/output_5_1.png)
+![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/output_5_1.png)
     
 
 
@@ -57,6 +57,8 @@ The search for gas station locations was carried out in two ways. For the best p
 From the response of the API, the Google Place ID is used to access exactly this location via the Selenium webdriver. The values for the interactive presentation of the peak times are located in the js code of the Google maps website. These are read, prepared for the database and stored. 
 
 The data collected in the database contains a comprehensive share of the German gas stations. Almost all of the motorway gas stations are included. The geographical distribution shows that all urban centres and motorways are covered. Initial assessments can show that the data are sufficiently well distributed to provide a good overview of the different use cases.
+
+![png](https://github.com/cbrennig/peak-hours-and-high-power-charging/raw/main/images/output_5_1.png)
 
 A first analysis of the peak hours shows that the utilisation of motorway gas stations varies significantly. It can be seen that a large proportion of gas stations are not continuously high or evenly high busy. This raises the possibility of considering the use of buffer storage.
 
