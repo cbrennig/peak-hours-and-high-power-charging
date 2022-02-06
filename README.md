@@ -48,7 +48,7 @@ In order to be able to make the planned evaluations, the peak times at gas stati
 
 I will use a VPS with Debian 10 and nginx , on which a Postgresql Database and Jupyter Notebook Server are already running.
 
-The data for the above considerations are collected in two steps. First, gas stations are searched for that are associated with motorways and as far as possible in all counties, at least in the region of high population density areas. In the second step, the associated peak hours of the places are fetched. 
+The data for the above considerations are collected in two steps. First, gas stations are searched for that are associated with motorways and as far as possible in all districts, at least in the region of high population density areas. In the second step, the associated peak hours of the places are fetched. 
 
 To perform a search for gas stations, a Google Place API is used. Unfortunately, only a total of 1,000 queries are available for this. However, it is not possible to query peak times via this API. For this reason, and because the limited number of available queries would not be sufficient to cover a total of 15,000 petrol stations, the websites with the peak times are fetched via a Selenium webdriver. 
 
